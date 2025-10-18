@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>علامه حلی 1 زرند</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='Styles.css') }}">
+</head>
+
+<body>
+	<img src="{{ url_for('static', filename='Images/LoadHely.png') }}" width="192" height="233" alt="لوگو علامه حلی" class="logo"/>
+	<h1>مدرسه علامه حلی  زرند</h1>
+<form class="main_control">
+	<input name="button" type="button" id="button" value="صفحه ورود" class="cbuttons" onclick="window.location.href='{{ url_for('loginpage') }}';">
+	<input name="button" type="button" id="button1" value="رسانه" class="cbuttons">
+	<input type="button" name="button2" id="button2" value="صفحه ویژه هر درس" class="cbuttons">	
+  </form>
+</body>
+</html>
