@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('fonts/Vazirmatn-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    text-align: center;
+	font-family: 'Vazir', sans-serif;
+}
+
+header {
+	background-color: aquamarine;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 40px;
+	flex-wrap: wrap;
+}
+
+h1 {
+ 	text-align: center;
+	direction: rtl;
+}
+h2 {
+	background-color: indianred;
+	direction: rtl;
+}
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.cbuttons{
+	background-color:#3D3A3A;
+	color: aliceblue;
+	font-family: 'Vazir';
+}
